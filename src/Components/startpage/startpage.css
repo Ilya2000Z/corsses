@@ -1,0 +1,455 @@
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background: url(https://i.pinimg.com/originals/5e/eb/36/5eeb369cd9ed811cdb71bd859b7d626d.png) no-repeat center center fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bord{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(0, 255, 0, .4);
+    border-radius: 40px;
+    border: 30px solid rgb(255, 234, 0, .4);
+}
+.container{
+    display: flex;
+    width: 35%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #7a6cd9;
+    justify-content: center;
+}
+.containerSwitch{
+    font-size: 20px;
+    font-weight: bold;
+    color: #7a6cd9;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+    justify-content: center;
+
+  }
+  .test{
+    padding-top: 20px;
+    display: flex;
+    width: 45%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-top: 13px;
+    margin-left: 9px
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {display:none;}
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .valuecheck{
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+    color: red;
+  }
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .iibot{
+    display: block;
+    width: 35%;
+    margin: 0 auto;
+  }
+  .button {
+    background-color: #7a6cd9;
+    border-radius: 30px;
+    border: 10px solid rgb(255, 234, 0, .4);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.button:hover {
+    border: 10px solid rgb(255, 234, 0, .9);
+}
+.center{
+    width: 24%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.textstile{
+    display: flex;
+    margin: 0 auto;
+    width: 32%;
+    justify-content: center;
+}
+/* установим отступ 1rem от нижнего края элемента */
+.textfield {
+    /* margin-bottom: 1rem; */
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    position: relative;
+   
+  }
+  /* стили для label */
+  .textfieldlabel {
+    display: flex;
+    position: absolute;
+    color: #6c6c6c;
+    top: -10px;
+    left: 20px;
+    background: #fff;
+    padding: 0 5px;
+    /* display: block;
+    margin-bottom: 0.25rem; */
+  }
+  .textfieldlabelred {
+    display: flex;
+    position: absolute;
+    color: red;
+    top: -10px;
+    left: 20px;
+    background: #fff;
+    padding: 0 5px;
+    /* display: block;
+    margin-bottom: 0.25rem; */
+  }
+  /* стили для input */
+  .textfieldinput {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  @media screen and (min-width: 320px) and (max-width: 375px){
+    .bord{
+        width: 88%;
+        height: 430px;
+        background-color: rgb(0, 255, 0, .4);
+        border-radius: 40px;
+        border: 17px solid rgb(255, 234, 0, .4);
+    } 
+    .container{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: bold;
+        color: #7a6cd9;
+    }
+    .test{
+        padding-top: 10px;
+        display: block;
+        width: 40%;
+        margin: 0 auto;
+      }
+      .iibot{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+      }
+      .textfield {
+    /* margin-bottom: 1rem; */
+    margin-top: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    position: relative;
+   }
+   .textfieldinput {
+    display: block;
+    width: 85%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .center{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 425px){
+    .bord{
+        width: 90%;
+        height: 430px;
+        background-color: rgb(0, 255, 0, .4);
+        border-radius: 40px;
+        border: 14px solid rgb(255, 234, 0, .4);
+    } 
+    .container{
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: bold;
+        color: #7a6cd9;
+    }
+    .test{
+        padding-top: 10px;
+        display: block;
+        width: 93%;
+        margin: 0 auto;
+      }
+      .iibot{
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+      }
+      .textfield {
+    /* margin-bottom: 1rem; */
+    margin-top: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    position: relative;
+   }
+   .textfieldinput {
+    display: block;
+    width: 85%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .center{
+    width: 52%;
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: center;
+    }
+}
+@media screen and (min-width: 330px) and (max-width: 376px){
+    .test{
+        padding-top: 10px;
+        display: block;
+        width: 115px;
+        margin: 0 auto;
+      }
+}
+@media screen and (min-width: 425px) and (max-width: 768px){
+    .bord{
+        width: 84%;
+        height: 380px;
+        background-color: rgb(0, 255, 0, .4);
+        border-radius: 40px;
+        border: 30px solid rgb(255, 234, 0, .4);
+    } 
+    .container{
+        display: flex;
+        width: 75%;
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: bold;
+        color: #7a6cd9;
+        justify-content: center;
+    }
+    .test{
+        padding-top: 10px;
+        display: flex;
+        width: 93%;
+        margin: 0 auto;
+        justify-content: center;
+
+      }
+      .iibot{
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+      }
+      .textfield {
+    /* margin-bottom: 1rem; */
+    margin-top: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    position: relative;
+   }
+   .textfieldinput {
+    display: block;
+    width: 85%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .center{
+    width: 52%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    div .textfield{
+     width: 30%;
+    }
+     
+     .bord{
+         width: 90%;
+         height: 330px;
+         background-color: rgb(0, 255, 0, .4);
+         border-radius: 40px;
+         border: 30px solid rgb(255, 234, 0, .4);
+     } 
+     .container{
+         display: flex;
+         width: 53%;
+         /* margin: 0 auto; */
+         justify-content: center;
+         font-size: 20px;
+         font-weight: bold;
+         color: #7a6cd9;
+     }
+     .test{
+         padding-top: 10px;
+         display: flex;
+         width: 50%;
+         /* margin: 0 auto; */
+         justify-content: center;
+       }
+       .iibot{
+         display: block;
+         width: 37%;
+         margin: 0 auto;
+       }
+       .textfield {
+     /* margin-bottom: 1rem; */
+     margin-top: 20px;
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+     flex-direction: column;
+     position: relative;
+    }
+    .textfieldinput {
+     display: block;
+     width: 85%;
+     height: calc(2.25rem + 2px);
+     padding: 0.375rem 0.75rem;
+     font-family: inherit;
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 1.5;
+     color: #212529;
+     background-color: #fff;
+     background-clip: padding-box;
+     border: 1px solid #bdbdbd;
+     border-radius: 0.25rem;
+     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+   }
+   .center{
+     width: 52%;
+     display: flex;
+     /* margin: 0 auto; */
+     justify-content: center;
+     }
+ }
+ @media screen and (min-width: 1024px) and (max-width: 1440px){
+    .bord{
+        width: 900px;
+        height: 300px;
+        background-color: rgb(0, 255, 0, .4);
+        border-radius: 40px;
+        border: 30px solid rgb(255, 234, 0, .4);
+    }
+ }  

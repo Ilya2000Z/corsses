@@ -1,0 +1,257 @@
+/* .background{
+    background: url(https://i.pinimg.com/originals/5e/eb/36/5eeb369cd9ed811cdb71bd859b7d626d.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display: flex;
+} */
+
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background: url(https://i.pinimg.com/originals/5e/eb/36/5eeb369cd9ed811cdb71bd859b7d626d.png) no-repeat center center fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button {
+    background-color: #7a6cd9;
+    border-radius: 30px;
+    border: 10px solid rgb(255, 234, 0, .4);
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.button:hover {
+    border: 10px solid rgb(255, 234, 0, .9);
+}
+.textplayer{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+  }
+  .bord{
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+    background-color: rgb(0, 255, 0, .4);
+    border-radius: 40px;
+    border: 30px solid rgb(255, 234, 0, .4);
+}
+.container{
+    /* display: block;
+    width: 35%;
+    margin: 0 auto; */
+    font-size: 20px;
+    font-weight: bold;
+    color: #7a6cd9;
+    margin-top: 10px;
+}
+.col9{
+    flex: 0 0 auto;
+    width: 59.3333333333%;
+}
+.collg8{
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+}
+.collg1{
+    flex: 0 0 auto;
+    width: 3.3333333333%;
+}
+@media screen and (min-width: 320px) and (max-width: 375px){
+    .bord{
+        flex: 0 0 auto;
+        width: 80%;
+        background-color: rgb(0, 255, 0, .4);
+        border-radius: 40px;
+        border: 30px solid rgb(255, 234, 0, .4);
+    }
+    .container{
+        /* display: block;
+        width: 35%;
+        margin: 0 auto; */
+        font-size: 15px;
+        font-weight: bold;
+        color: #7a6cd9;
+        margin-top: 10px;
+    }
+    .button {
+        background-color: #7a6cd9;
+        border-radius: 30px;
+        border: 5px solid rgb(255, 234, 0, .4);
+        color: white;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .collg8{
+        flex: 0 0 auto;
+        width: 30.3333333333%;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 425px){
+    .bord{
+        flex: 0 0 auto;
+        width: 80%;
+        background-color: rgb(0, 255, 0, .4);
+        border-radius: 40px;
+        border: 30px solid rgb(255, 234, 0, .4);
+    }
+    .container{
+        /* display: block;
+        width: 35%;
+        margin: 0 auto; */
+        font-size: 15px;
+        font-weight: bold;
+        color: #7a6cd9;
+        margin-top: 10px;
+    }
+    .button {
+        background-color: #7a6cd9;
+        border-radius: 30px;
+        border: 5px solid rgb(255, 234, 0, .4);
+        color: white;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .collg8{
+        flex: 0 0 auto;
+        width: 30.3333333333%;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 768px){
+    .bord{
+        flex: 0 0 auto;
+        width: 50%;
+        background-color: rgb(0, 255, 0, .4);
+        border-radius: 40px;
+        border: 30px solid rgb(255, 234, 0, .4);
+    }
+    .container{
+        /* display: block;
+        width: 35%;
+        margin: 0 auto; */
+        font-size: 15px;
+        font-weight: bold;
+        color: #7a6cd9;
+        margin-top: 10px;
+    }
+    .button {
+        background-color: #7a6cd9;
+        border-radius: 30px;
+        border: 5px solid rgb(255, 234, 0, .4);
+        color: white;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .collg8{
+        flex: 0 0 auto;
+        width: 30.3333333333%;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 425px){
+    .bord{
+        flex: 0 0 auto;
+        width: 80%;
+        background-color: rgb(0, 255, 0, .4);
+        border-radius: 40px;
+        border: 30px solid rgb(255, 234, 0, .4);
+    }
+    .container{
+        /* display: block;
+        width: 35%;
+        margin: 0 auto; */
+        font-size: 15px;
+        font-weight: bold;
+        color: #7a6cd9;
+        margin-top: 10px;
+    }
+    .button {
+        background-color: #7a6cd9;
+        border-radius: 30px;
+        border: 5px solid rgb(255, 234, 0, .4);
+        color: white;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .collg8{
+        flex: 0 0 auto;
+        width: 30.3333333333%;
+    }
+}
+@media screen and (min-width: 424px) and (max-width: 500px){
+    .bord{
+        flex: 0 0 auto;
+        width: 68%;
+        background-color: rgb(0, 255, 0, .4);
+        border-radius: 40px;
+        border: 30px solid rgb(255, 234, 0, .4);
+    }
+    .container{
+        /* display: block;
+        width: 35%;
+        margin: 0 auto; */
+        font-size: 15px;
+        font-weight: bold;
+        color: #7a6cd9;
+        margin-top: 10px;
+    }
+    .button {
+        background-color: #7a6cd9;
+        border-radius: 30px;
+        border: 5px solid rgb(255, 234, 0, .4);
+        color: white;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .collg8{
+        flex: 0 0 auto;
+        width: 30.3333333333%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1050px){
+    .bord{
+        flex: 0 0 auto;
+        width: 500px;
+        background-color: rgb(0, 255, 0, .4);
+        border-radius: 40px;
+        border: 30px solid rgb(255, 234, 0, .4);
+    }
+}
+/* .flexcontainer{
+    display: flex;
+} */

@@ -1,0 +1,178 @@
+.border {
+    width: 39%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.border25{
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (min-width: 320px) and (max-width: 375px){
+    .border {
+        width: 94%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .border25{
+        width: 94%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 425px){
+    .border {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .border25{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 424px) and (max-width: 501px){
+    .border {
+        width: 73%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .border25{
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px){
+    .border {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .border25{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 666px) and (max-width: 768px){
+    .border {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .border25{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 827px){
+    .border {
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .border25{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 827px) and (max-width: 999px){
+    .border25{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 999px) and (max-width: 1200px){
+    .border {
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .border25{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1363px){
+    .border {
+        width: 25%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .border25{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1363px) and (max-width: 1440px){
+    .border25{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1571px) and (max-width: 2560px){
+    .border25{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1818px) and (max-width: 1999px){
+    .border {
+        width: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 2000px) and (max-width: 2560px){
+    .border {
+        width: 15%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .border25{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1364px) and (max-width: 1817px){
+    .border {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
